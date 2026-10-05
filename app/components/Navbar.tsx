@@ -47,7 +47,7 @@ export default function Navbar() {
             <img src="/images/N11-PICTURES-1.png" loading="eager" width="Auto" height="100" alt="" className="logo" />
           </Link>
           <div className="nav">
-            <Link href="/shop" onClick={() => setMenuState({ pathname, isOpen: false })} className={`nav-link right w-inline-block ${pathname === '/shop' ? 'w--current' : ''}`}>
+            <Link href="/shop" onClick={() => setMenuState({ pathname, isOpen: false })} className="nav-link right w-inline-block">
               <div className="nav-text">SHOP</div>
               <div className="block-underline"><div className="underline"></div></div>
             </Link>
