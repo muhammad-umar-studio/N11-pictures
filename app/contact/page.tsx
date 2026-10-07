@@ -159,7 +159,7 @@ export default function ContactPage() {
       
       {/* Footer */}
       <section className="footer">
-        <div>© 2026 N11 PICTURES. All Rights Reserved.</div>
+        <div>© 2025 N11 PICTURES. All Rights Reserved.</div>
       </section>
     </>
   );
